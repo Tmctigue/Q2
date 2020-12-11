@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Nunito:wght@800&display=swap');
+
+#wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  "header aside aside"
+  "aside aside aside"
+  "main2 main2 main2"
+  "main3 main4 main4"
+  "main5 main6 main6"
+  "main7 main8 main8"
+  "main9 main9 main9"
+  "footer footer footer";
+  grid-gap: 5px;
+}
+
+h1 {
+  color: #7DAB9B;
+  font-size: 50px;
+  text-align: center;
+}
+
+#header {
+  grid-area: header;
+}
+
+#aside {
+  grid-area: aside;
+}
+
+#main {
+  grid-area: main;
+}
+
+#main2 {
+  grid-area: main2;
+}
+
+#main3 {
+  grid-area: main3;
+}
+
+#main4 {
+  grid-area: main4;
+}
+
+#main5 {
+  grid-area: main5;
+}
+
+#main6 {
+	grid-area: main6;
+}
+
+#main7 {
+	grid-area: main7;
+}
+
+#main8 {
+	grid-area: main8;
+}
+
+#main9 {
+	grid-area: main9;
+}
+
+#footer {
+  grid-area: footer;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #e47855 3px solid;
+  padding: 20px;
+}
+
+.logo {
+  height: 75px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+  margin: 15px;
+}
+
+h2 {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+a:visited {
+  color: #7DAB9B;
+}
+
+body {
+  background-color: #0D2025;
+  font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+  color: #E47855;
+}
+
+.center {
+  text-align: center;
+}
+
+.rowimg {
+  overflow: hidden;
+  height: 200px;
+  width: 100%;
+}
